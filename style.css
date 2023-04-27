@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-size: 2rem;
+}
+.container{
+    width: 90%;
+    max-width: 1900px;
+    margin: 2em auto;
+    padding: 1.8em 2.6em;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 213, 0);
+    padding: 1.5em;
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+}
+.logo{
+    display: flex; 
+}
+.b-m{
+    margin-left: .6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin-right: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: .8em;
+    font-weight: 600;
+}
+.white-bg{
+    background-color: aliceblue;
+    padding: .5em 1em;
+}
+.main{
+    display: flex;
+    padding: 3em;
+    background-color: black;
+    border-bottom-left-radius: .3em;
+        border-bottom-right-radius: .3em;
+        
+}
+.left-bar{
+    width: 75%;
+}
+.note{
+    background-color: #fff;
+    font-size: 1.7rem;
+    padding: .8em 1.3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.yellow-bg{
+    width: 100%;
+}
+.note-1{
+    font-size: .4em;
+    font-weight: 700;
+   text-align: right;
+   margin-bottom: .6em;
+
+}
+.note-2{
+    margin-bottom: -1.6em;
+    margin-top: 1em;
+    
+}
+.note-3{
+    margin-top: -3em; 
+    margin-bottom: -1em;
+    font-size: .5em;
+}
+.span-1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.line{
+       width: 100px;
+}
+.right-bar{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 4em;
+    
+}
+.span-2{
+    color: rgb(255, 196, 0);
+}
+h2{
+    margin-bottom: .4em;
+}
+.note-4{
+    font-size: .8em;
+    font-weight: 100;
+    color: #ffffffb7;
+    font-family: cursive;
+}
+input{
+    font-size: .7em;
+    padding: .8em;
+    margin: 1em 0;
+    width: 60%;
+    margin-left: .2em;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: #17101060;
+    font-family: cursive;
+}
+button {
+    font-size: .7em;
+    padding: .8em;
+    margin: 1em 0;
+    width: 35%;
+    margin-left: -.4em;
+    border: none;
+    background-color: rgb(255, 196, 0);
+    font-weight: 600;
+}
+.note-5{
+         font-size: .7em;
+         color: #ffffffb7;
+        font-family: cursive;     
+}
+.down{
+    margin-left: 1em;
+}
+.span-2-3{
+           font-size: .7em;
+        color: rgb(255, 196, 0);
+}
+@media (max-width: 768px){
+    .header {
+            display: block;
+            padding: 1.3em ;
+        }
+    ul {
+            display: block;
+            list-style-type: none;
+            text-align: end;
+        }
+     a {
+            font-size: .6em;  
+
+       }
+                .white-bg {
+                    background-color: aliceblue;
+                    padding: .3em .7em;
+                    text-align: end;
+                }
+         .main {
+             display: block;
+             padding: 1.9em .7em;
+         }
+    
+         .left-bar {
+             width: 75%;
+             margin-left: 1.8em;
+         }
+    
+         .note {
+             font-size: 1.2rem;
+         }
+         .line {
+             width: 80px;
+         }
+         .right-bar {
+            font-size: 1.2rem ;
+             margin-right: 3em;
+         }
+         .span-2 {
+             color: rgb(255, 196, 0);
+             margin-left: 1.5em;
+            font-size: 1.9rem;
+         }
+         h2 {
+             margin-bottom: .4em;
+             margin-top: 1em;
+            font-size: 1.4rem;
+         }
+    
+         .note-4 {
+             font-size: .6em;
+         }
+         .note-5 {
+             font-size: .7em;
+         }
+    
+        .down {
+             margin-left: .6em;
+            font-size: .2rem;
+            width: 4em;
+         }
+    
+         .span-2-3 {
+             font-size: .7em;
+             color: rgb(255, 196, 0);
+         }
+}
+@media (min-width: 769px){
+    .header {
+            display: block;
+            padding: 1.3em ;
+        }
+    ul {
+            display: block;
+            list-style-type: none;
+            text-align: end;
+        }
+     a {
+            font-size: .6em;  
+
+       }
+                .white-bg {
+                    background-color: aliceblue;
+                    padding: .3em .7em;
+                    text-align: end;
+                }
+         .main {
+             display: block;
+             padding: 1.9em .7em;
+         }
+    
+         .left-bar {
+             width: 75%;
+             margin-left: 2.6em;
+         }
+    
+         .note {
+             font-size: 1.2rem;
+         }
+         .line {
+             width: 80px;
+         }
+         .right-bar {
+            font-size: 1.2rem ;
+             margin-right: 3em;
+         }
+         .span-2 {
+             color: rgb(255, 196, 0);
+             margin-left: 4.5em;
+            font-size: 1.9rem;
+         }
+         h2 {
+             margin-bottom: .4em;
+             margin-top: 1em;
+            font-size: 1.4rem;
+         }
+    
+         .note-4 {
+             font-size: .6em;
+         }
+         .note-5 {
+             font-size: .7em;
+         }
+    
+        .down {
+             margin-left: .6em;
+            font-size: .2rem;
+            width: 4em;
+         }
+    
+         .span-2-3 {
+             font-size: .7em;
+         }
+}
+@media (min-width: 1024px){
+    .header {
+            display: flex;
+            padding: 1em 1.3em ;
+        }
+    
+    .b-m{
+        margin-top: .4em;
+        font-size: 1.4rem;
+    }
+    ul {
+            display: flex;
+            list-style-type: none;
+            margin-right: .3em;
+            font-size: .6em;
+            margin-top: .4em;
+        }
+
+                .white-bg {
+                    background-color: aliceblue;
+                    padding: .3em .7em;
+                    text-align: end;
+                }
+         .main {
+             display: block;
+             padding: 1.9em .7em;
+         }
+    
+         .left-bar {
+             width: 75%;
+             margin-left: 2.8em;
+         }
+    
+         .note {
+             font-size: 1.2rem;
+         }
+         .line {
+             width: 80px;
+         }
+         .right-bar {
+            font-size: 1.2rem ;
+             margin-right: 3em;
+         }
+         .span-2 {
+             color: rgb(255, 196, 0);
+             margin-left: 3.9em;
+            font-size: 2.2rem;
+         }
+         h2 {
+             margin-bottom: .4em;
+             margin-top: 1em;
+            font-size: 1.8rem;
+         }
+    
+         .note-4 {
+             font-size: .9rem;
+         }
+         .note-5 {
+             font-size: .9rem;
+         }
+    
+        .down {
+             margin-left: .6em;
+            font-size: .2rem;
+            width: 4em;
+         }
+    
+         .span-2-3 {
+             font-size: .7em;
+             color: rgb(255, 196, 0);
+         }
+}
+@media (min-width: 1500px){
+    .header {
+            display: flex;
+            padding: 1em 1.3em ;
+        }
+        .top-bee{
+            width: 2em;
+        }
+    
+    .b-m{
+        font-size: 2.2rem;
+    }
+    ul {
+            display: flex;
+            list-style-type: none;
+            margin-right: .3em;
+            font-size: 2.6rem;
+            margin-top: 0em;
+        }
+
+         .main {
+             display: flex;
+             padding: 1.9em .7em;
+             height: 25em;
+         }
+    
+         .left-bar {
+             width: 100%;
+             margin-left: 2.8em;
+             margin-top: 1.8em;
+         }
+         .note-3{
+            margin-bottom: .6em;
+         }
+    .yellow-bg{
+        height: 12em;
+    }
+         .note {
+             font-size: 1.2rem;
+         }
+         .line {
+             width: 80px;
+         }
+         .right-bar {
+            font-size: 1.2rem ;
+             margin-right: 3em;
+         }
+         .span-2 {
+             color: rgb(255, 196, 0);
+            font-size: 2.2rem;
+            margin-left: -.1em;
+            font-size: 3.3rem;
+         }
+         h2 {
+             margin-bottom: .4em;
+             margin-top: 1em;
+            font-size: 2.8rem;
+         }
+    
+         .note-4 {
+             font-size: 1.6rem;
+         }
+         input {
+             font-size: 1.3rem;
+         }
+    
+         ::-webkit-input-placeholder {
+             color: #17101060;
+             font-family: cursive;
+         }
+    
+         button {
+             font-size: 1.3rem;
+         }
+         .note-5 {
+             font-size: 1.2rem;
+         }
+    
+        .down {
+             margin-left: .6em;
+            font-size: .2rem;
+            width: 7em;
+         }
+    
+         .span-2-3 {
+             font-size: .7em;
+             color: rgb(255, 196, 0);
+         }
+}
